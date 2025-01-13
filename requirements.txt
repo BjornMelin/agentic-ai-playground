@@ -1,0 +1,11 @@
+smolagents
+duckduckgo-search
+markdownify
+requests
+pandas
+transformers
+gradio
+e2b-code-interpreter
+openai
+huggingface-hub
+datasets
