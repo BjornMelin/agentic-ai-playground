@@ -1,9 +1,14 @@
-smolagents
+smolagents>=1.2.0
 duckduckgo-search
 markdownify
 requests
 pandas
 transformers
+litellm
+torch==2.5+cu124.1
+torchvision==0.20.1+cu124
+torchaudio==2.5.1+cu124
+tensorflow
 gradio
 e2b-code-interpreter
 openai

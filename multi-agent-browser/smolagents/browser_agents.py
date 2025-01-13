@@ -9,7 +9,7 @@ from visit_webpage_tool import visit_webpage
 
 
 # Configure the model using Ollama, note that the api key for local models can be any text, I use 'ollama' here
-model = LiteLLMModel(model_id="qwen2.5-coder:7b-instruct-q8_0", api_key="ollama")
+model = LiteLLMModel(model_id="ollama_chat/qwen2.5-coder:7b-instruct-q8_0", api_key="ollama")
 
 # Create the tool calling agent that calls the DuckDuckGo search tool and the visit webpage tool
 web_agent = ToolCallingAgent(
